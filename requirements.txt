@@ -1,0 +1,6 @@
+discord.py
+supabase
+python-dotenv
+google-generativeai
+httpx
+groq

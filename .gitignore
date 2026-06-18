@@ -1,0 +1,40 @@
+# 敏感資訊（金鑰、環境變數）
+.env
+config.json
+token.txt
+*.pem
+
+# 系統與 IDE 暫存檔
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 套件資料夾（非常大，絕對不要傳）
+node_modules/
+
+# 日誌檔案
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 執行編譯結果（如果有用 TypeScript）
+dist/
+build/
+
+# 虛擬環境
+venv/
+.venv/
+env/
+ENV/
+
+# Python 暫存快取
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 散佈套件
+dist/
+build/
+*.egg-info/
